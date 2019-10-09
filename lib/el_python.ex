@@ -28,5 +28,11 @@ defmodule Elpy do
   def greetings(name) do
     call_python(:echo, :greetings, [name])
   end
+  def p(name,test) do
+    call_python(:echo, :greetings, [name,test])
+  end
+   def k(name,test) do
+    call_python(:echo, :greetings, [name,test])
+  end
 
 end
